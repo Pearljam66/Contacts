@@ -16,3 +16,4 @@ To be added
 - UIKit
 - Contacts UI
 - Contacts
+- SwiftLint
