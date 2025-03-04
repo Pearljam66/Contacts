@@ -8,7 +8,11 @@
 To be added
 
 # Requirements:
-To be added
+- iOS 17.0
+- Xcode 16.2
 
 # Technical Details:
-To be added
+- Swift
+- UIKit
+- Contacts UI
+- Contacts
