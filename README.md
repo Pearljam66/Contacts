@@ -8,7 +8,7 @@
 To be added
 
 # Requirements:
-- iOS 17.0
+- iOS 17.0+
 - Xcode 16.2
 
 # Technical Details:
