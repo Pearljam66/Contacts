@@ -1,2 +1,2 @@
-# Contacts
-A simple app to play around with the Apple Contacts Framework
+# ContactsFun
+A simple Swift UIKit app using the Contacts and Contacts UI framwork.
