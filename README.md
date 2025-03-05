@@ -17,3 +17,4 @@ To be added
 - Contacts UI
 - Contacts
 - SwiftLint
+- Uses Swift Testing framework for unit tests
