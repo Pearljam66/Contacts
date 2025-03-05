@@ -8,7 +8,7 @@
 import Contacts
 import UIKit
 
-final class Person {
+final class Person: Identifiable {
     let id: String?
     let firstName: String
     let lastName: String
@@ -37,7 +37,7 @@ final class Person {
 
 }
 
-extension Person: Identifiable {
+extension Person: Equatable {
     static func == (lhs: Person, rhs: Person) -> Bool {
         return lhs.firstName == rhs.firstName &&
         lhs.lastName == rhs.lastName &&
@@ -55,7 +55,7 @@ extension Person {
         contact.emailAddresses = [CNLabeledValue(label: CNLabelHome, value: personalEmailAddress as NSString)]
 
         if let profileImage = profileImage {
-            let imageData = profileImage.jpegData(compressionQuality: 1)
+            let imageData = profileImage.pngData()
             contact.imageData = imageData
         }
 
