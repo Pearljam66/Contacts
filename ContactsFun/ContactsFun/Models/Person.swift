@@ -25,14 +25,14 @@ final class Person: Identifiable {
         self.profileImage = profileImage
     }
 
-    private static func defaultContacts() -> [Person] {
+    static func defaultContacts() -> [Person] {
         return [
-            Person(firstName: "Rachel", lastName: "McKitty", emailAddress: "Rachel@cats.com", profileImage: UIImage(named: "rachelpicture")),
-            Person(firstName: "Kate", lastName: "McFriend", emailAddress: "Kate@friends.com", profileImage: UIImage(named: "katepicture")),
-            Person(firstName: "Orko", lastName: "McPuppy", emailAddress: "Orko@puppy.com", profileImage: UIImage(named: "orkopicture")),
-            Person(firstName: "Molly", lastName: "McPuppy", emailAddress: "Molly@puppy.com", profileImage: UIImage(named: "mollypicture")),
-            Person(firstName: "Eric", lastName: "McFriend", emailAddress: "Eric@friends.com", profileImage: UIImage(named: "ericpicture")),
-            Person(firstName: "Logan", lastName: "McNephew", emailAddress: "Logan@nephews.com", profileImage: UIImage(named: "loganpicture"))]
+            Person(firstName: "Rachel", lastName: "McKitty", emailAddress: "Rachel@cats.com", profileImage: UIImage(systemName: "cat.fill")),
+            Person(firstName: "Kate", lastName: "McFriend", emailAddress: "Kate@friends.com", profileImage: UIImage(systemName: "leaf.fill")),
+            Person(firstName: "Orko", lastName: "McPuppy", emailAddress: "Orko@puppy.com", profileImage: UIImage(systemName: "dog.fill")),
+            Person(firstName: "Molly", lastName: "McPuppy", emailAddress: "Molly@puppy.com", profileImage: UIImage(systemName: "dog.fill")),
+            Person(firstName: "Eric", lastName: "McFriend", emailAddress: "Eric@friends.com", profileImage: UIImage(systemName: "flame.fill")),
+            Person(firstName: "Logan", lastName: "McNephew", emailAddress: "Logan@nephews.com", profileImage: UIImage(systemName: "figure.snowboarding"))]
     }
 
 }
